@@ -37,5 +37,9 @@ html {
 
 /* Style your grid here */
 #grid {
-    
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: repeat(3, 1fr); 
+    column-gap: 10px; 
+    row-gap: 10px; 
 }
